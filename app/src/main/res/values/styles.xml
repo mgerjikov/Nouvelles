@@ -1,0 +1,100 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorActionBar</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- CUSTOM STYLES FOR THE  activity_main.xml  -->
+    <!-- Custom style for the RelativeLayout in activity_main.xml  -->
+    <style name="relative_layout_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Custom style for the RecyclerView in activity_main.xml  -->
+    <style name="recycler_view_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Custom style for the SwipeRefreshLayout in activity_main.xml  -->
+    <style name="swipe_refresh_layout_in_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Custom style for the empty state TextView in activity_main.xml  -->
+    <style name="empty_state_text_view_in_activity_main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- CUSTOM STYLES FOR THE  list_item.xml  -->
+    <!-- Custom style for the FIRST LinearLayout in list_item.xml  -->
+    <style name="first_linear_layout_in_list_item">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+    <!-- Custom style for the second LinearLayout in list_item.xml  -->
+    <style name="second_linear_layout_in_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+    </style>
+    <!-- Custom style for the article ImageView in list_item.xml  -->
+    <style name="image_in_list_item">
+        <item name="android:layout_width">@dimen/width_and_height_of_image_view_in_list_item</item>
+        <item name="android:layout_height">@dimen/width_and_height_of_image_view_in_list_item</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_margin">@dimen/two_dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:contentDescription">@string/article_image_contentDescription</item>
+    </style>
+    <!-- Custom style for the RelativeLayout in list_item.xml  -->
+    <style name="relative_layout_in_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/ten_dp</item>
+        <item name="android:paddingLeft">@dimen/ten_dp</item>
+    </style>
+    <!-- Custom style for the title TextView in list_item.xml  -->
+    <style name="title_text_view_in_list_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+    <!-- Custom style for the date TextView in list_item.xml  -->
+    <style name="date_text_view_in_list_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/title</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+    <!-- Custom style for the time TextView in list_item.xml  -->
+    <style name="time_text_view_in_list_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/date</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+    <!-- Custom style for the section TextView in list_item.xml  -->
+    <style name="section_text_view_in_list_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_of_section_text_view_in_list_item</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_below">@id/title</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+</resources>

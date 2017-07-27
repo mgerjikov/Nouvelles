@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/first_linear_layout_in_list_item">
+
+    <LinearLayout style="@style/second_linear_layout_in_list_item">
+
+        <ImageView
+            android:id="@+id/news_thumbnail"
+            style="@style/image_in_list_item"
+            tools:background="@color/colorAccent" />
+
+        <RelativeLayout style="@style/relative_layout_in_list_item">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/title_text_view_in_list_item"
+                tools:text="Example Title" />
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/date_text_view_in_list_item"
+                tools:text="Example Date" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/time_text_view_in_list_item"
+                tools:text="Example time" />
+
+            <TextView
+                android:id="@+id/section"
+                android:layout_marginLeft="120dp"
+                style="@style/section_text_view_in_list_item"
+                tools:text="Example topic" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

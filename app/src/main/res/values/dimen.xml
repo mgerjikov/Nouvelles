@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="marginLeft_of_section_text_view_in_list_item">120dp</dimen>
+    <dimen name="width_and_height_of_image_view_in_list_item">105dp</dimen>
+</resources>
